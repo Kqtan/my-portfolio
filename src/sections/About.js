@@ -1,13 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ParticlesBackground from "../components/particlesBackground";
+// import ParticlesBackground from "../components/particlesBackground";
 
 const About = () => {
   return (
     <>
       {/* Hero/Landing Section */}
       <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6 pt-0 z-10">
-        <ParticlesBackground />
         <motion.div
           className="max-w-5xl mx-auto text-center"
           initial={{ opacity: 0, y: 30 }}
