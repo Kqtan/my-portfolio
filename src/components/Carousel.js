@@ -13,7 +13,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="relative w-full max-w-xl mx-auto overflow-hidden">
+    <div className="relative mx-auto overflow-hidden">
       <div className="flex items-center justify-center">
         {/* <button onClick={prevSlide} className="text-2xl text-white px-4 hover:text-[#61dafb] transition">
           &lt;

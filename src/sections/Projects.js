@@ -19,7 +19,7 @@ export default function Projects() {
       description:
         "Developed a system that includes filtering, categorising, and summarising contents. The models featured both Machine Learning and Deep Learning.",
       link: "https://github.com/yourusername/credit-risk-model",
-      labels: ["Python", "Tensorflow", "Deep Learning"],
+      labels: ["Python", "Flask", "Tensorflow", "Deep Learning"],
       icon: <FaAward className="text-yellow-500" />
     },
     {

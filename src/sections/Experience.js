@@ -21,41 +21,52 @@ const Experience = () => {
 
         {/* Carousel Container */}
         <div className="relative">
-          {/* Scrollable Cards */}
-          <div
-            ref={scrollRef}
-            className="flex overflow-x-auto gap-6 pb-4 no-scrollbar scroll-smooth justify-center"
-          >
-            <ExperienceCard
-              coverColor="#febe10"
-              profileImg="/assets/sun_life_logo.jpg"
-              role="Data Scientist"
-              company="Sun Life Malaysia Assurance"
-              duration="2024 Jan - Present"
-              summary="Exposure on ML, Business Logic, and Automations."
-              description={[
-                "Spearheaded the integration of Anaconda Python into the organisation.",
-                "Constructed a ML model to predict client miss payment using Scikit-Learn, with 80% accuracy.",
-                "Translated and improved the SAS e-miner model into Python with Scikit-Learn.",
-                "Performed multiple analyses and forecasting, significantly, Sales Forecast calculator and Claims ratio analysis.",
-                "Worked on Amazon Business Q and Bedrock Gen AI POC using company knowledge or RAG.",
-                "Automated reporting pipelines using MSSQL.",
-              ]}
-            />
-            {/* #003946 */}
-            <ExperienceCard
-              coverColor="#FEBE10"
-              profileImg="/assets/sun_life_logo.jpg"
-              role="Intern, Strategic Analytics"
-              company="Sun Life Malaysia Assurance"
-              duration="2022 Oct - 2023 Jan"
-              summary="Short internship to get from ZERO to HERO!"
-              description={[
-                "Developed the Campaign Management module for an internal application using Flask and SQLalchemy.",
-                "Led the backend team in A/B testing software logic using the tree-node concept.",
-                "Constructed a regression duration predictor model for the data extraction process with 90% accuracy.",
-              ]}
-            />
+          <div className="lg:flex lg:justify-center">
+            {/* Scrollable Cards */}
+            <div
+              ref={scrollRef}
+              className="flex overflow-x-auto gap-6 pb-4 px-4 no-scrollbar scroll-smooth snap-x snap-mandatory"
+            >
+              <div className="snap-start flex-shrink-0" style={{ width: "1px" }} />
+
+              <div className="snap-center flex-shrink-0">
+                <ExperienceCard
+                  coverColor="#febe10"
+                  profileImg="/assets/sun_life_logo.jpg"
+                  role="Data Scientist"
+                  company="Sun Life Malaysia Assurance"
+                  duration="2024 Jan - Present"
+                  summary="Exposure on ML, Business Logic, and Automations."
+                  description={[
+                    "Spearheaded the integration of Anaconda Python into the organisation.",
+                    "Engineered a Python-based OCR engine to unlock lucrative opportunities that goes up to 30% extra sales.",
+                    "Constructed a ML model to predict client miss payment using Scikit-Learn, with 80% accuracy.",
+                    "Translated and improved the SAS e-miner model into Python with Scikit-Learn.",
+                    "Performed multiple analyses and forecasting, significantly, Sales Forecast calculator and Claims ratio analysis.",
+                    "Worked on Amazon Business Q and Bedrock Gen AI POC using company knowledge or RAG.",
+                    "Automated reporting pipelines using MSSQL.",
+                  ]}
+                />
+              </div>
+              {/* #003946 */}
+              <div className="snap-center flex-shrink-0">
+                <ExperienceCard
+                  coverColor="#FEBE10"
+                  profileImg="/assets/sun_life_logo.jpg"
+                  role="Intern, Strategic Analytics"
+                  company="Sun Life Malaysia Assurance"
+                  duration="2022 Oct - 2023 Jan"
+                  summary="Short internship to get from ZERO to HERO!"
+                  description={[
+                    "Developed the Campaign Management module for an internal application using Flask and SQLalchemy.",
+                    "Led the backend team in A/B testing software logic using the tree-node concept.",
+                    "Constructed a regression duration predictor model for the data extraction process with 90% accuracy.",
+                  ]}
+                />
+              </div>
+
+              <div className="snap-end flex-shrink-0" style={{ width: "1px" }} />
+            </div>
           </div>
 
           {/* Left & Right Buttons */}

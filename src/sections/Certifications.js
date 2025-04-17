@@ -22,20 +22,6 @@ const AwardCard = ({ title, issuer, date, badge, link }) => (
 
 const certifications = [
   {
-    title: "Introduction to Data Science",
-    issuer: "CloudSwyft",
-    date: "September 2021",
-    badge: "/assets/Intro_to_DS_badge.png",
-    link: "https://www.credential.net/8951fad4-c47b-4e0c-a987-30d3eb5dceeb#acc.TU7pvbfR",
-  },
-  {
-    title: "Introduction to Python Programming",
-    issuer: "CloudSwyft",
-    date: "February 2022",
-    badge: "/assets/Intro_to_Python_badge.png",
-    link: "https://www.credential.net/6e7b7019-d2ad-42d9-982c-d047b6766e32#acc.z1x0B8IT/",
-  },
-  {
     title: "Introduction to Cloud 101",
     issuer: "Amazon Web Services",
     date: "March 2025",
@@ -54,6 +40,20 @@ const certifications = [
     date: "March 2024",
     // badge: "https://upload.wikimedia.org/wikipedia/en/f/f1/Universiti_Tunku_Abdul_Rahman_Logo.jpg",
   },
+  {
+    title: "Introduction to Python Programming",
+    issuer: "CloudSwyft",
+    date: "February 2022",
+    badge: "/assets/Intro_to_Python_badge.png",
+    link: "https://www.credential.net/6e7b7019-d2ad-42d9-982c-d047b6766e32#acc.z1x0B8IT/",
+  },
+  {
+    title: "Introduction to Data Science",
+    issuer: "CloudSwyft",
+    date: "September 2021",
+    badge: "/assets/Intro_to_DS_badge.png",
+    link: "https://www.credential.net/8951fad4-c47b-4e0c-a987-30d3eb5dceeb#acc.TU7pvbfR",
+  },
 ];
 
 const AwardsCertifications = () => {
@@ -62,9 +62,15 @@ const AwardsCertifications = () => {
       <h2 className="text-5xl font-bold text-center text-[#61dafb] mb-10">
         Awards & Certifications
       </h2>
-      <Carousel items={certifications.map((cert, idx) => (
-        <AwardCard key={idx} {...cert} />
-      ))} />
+
+      <div className="w-full max-w-xl mx-auto">
+        <Carousel
+          className="w-full"
+          items={certifications.map((cert, idx) => (
+            <AwardCard key={idx} {...cert} />
+          ))}
+        />
+      </div>
     </section>
   );
 };
