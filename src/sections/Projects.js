@@ -3,9 +3,18 @@ import { TbCircleNumber1Filled } from "react-icons/tb";
 import { FaAward } from "react-icons/fa";
 import { MdSms } from "react-icons/md";
 import { RiStockFill } from "react-icons/ri";
+import { RiFootballFill } from "react-icons/ri";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Simple Football Dashboard",
+      description:
+        "First effort into dashboarding, using Football data and deployed with Streamlit.",
+      link: "https://footydash.streamlit.app/",
+      labels: ["Python", "Dashboard", "Streamlit"],
+      icon: <RiFootballFill className="text-blue-500" />
+    },
     {
       title: "F1 Race Prediction",
       description:
@@ -49,7 +58,9 @@ export default function Projects() {
     "Scikit-Learn": "bg-green-600 text-white",
     Explainability: "bg-purple-400 text-white",
     React: "bg-[#61dafb] text-gray-800",
-    R: "bg-blue-300 text-black"
+    R: "bg-blue-300 text-black",
+    Dashboard: "bg-blue-100 text-black",
+    Streamlit: "bg-[#f63366] text-white"
   };
 
   return (
