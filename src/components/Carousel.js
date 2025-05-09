@@ -13,7 +13,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="relative mx-auto overflow-hidden">
+    <div className="relative mx-auto overflow-hidden w-[600px] h-[300px]">
       <div className="flex items-center justify-center">
         {/* <button onClick={prevSlide} className="text-2xl text-white px-4 hover:text-[#61dafb] transition">
           &lt;
@@ -24,9 +24,11 @@ const Carousel = ({ items }) => {
         >
             <ChevronLeft className="text-white" />
         </button>
-        <div className="w-full px-4">
+
+        <div className="w-full h-full px-4 items-center justify-center">
           {items[current]}
         </div>
+
         <button
             onClick={nextSlide}
             className="text-2xl text-white bg-gray-800 p-2 rounded-full shadow-lg hover:bg-gray-700 transition"

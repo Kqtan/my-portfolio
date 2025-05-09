@@ -19,8 +19,12 @@ const About = () => {
             Analytics. <span className="text-white">KQ Tan.</span>
           </h1>
           <p className="text-xl font-inter text-gray-300 mb-8 max-w-3xl">
-            I’m a data scientist focused on solving complex problems
-            and delivering business impact in the banking/insurance industry.
+            <span><strong>Data Scientist by title, problem solver by instinct.</strong></span>
+            <br></br>
+            <span>
+              I turn data into business wins—in Banking/Insurance industry—with a blend of Machine Learning, Strategy, 
+              and the occassional adrenaline-fuelled leap.
+            </span>
           </p>
 
           <motion.img
