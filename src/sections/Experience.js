@@ -40,7 +40,7 @@ const Experience = () => {
                   description={[
                     "Spearheaded the integration of Anaconda Python into the organisation.",
                     "Engineered a Python-based OCR engine to unlock lucrative opportunities that goes up to 30% extra sales.",
-                    "Constructed a ML model to predict client miss payment using Scikit-Learn, with 80% accuracy.",
+                    "Constructed a ML model to predict client miss payment using Scikit-Learn, with 70% accuracy.",
                     "Translated and improved the SAS e-miner model into Python with Scikit-Learn.",
                     "Performed multiple analyses and forecasting, significantly, Sales Forecast calculator and Claims ratio analysis.",
                     "Worked on Amazon Business Q and Bedrock Gen AI POC using company knowledge or RAG.",

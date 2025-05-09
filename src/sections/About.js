@@ -24,7 +24,8 @@ const About = () => {
           </p>
 
           <motion.img
-            src="https://cdn-6.motorsport.com/images/mgl/6D1XbeV0/s800/max-verstappen-red-bull-racing.jpg"
+            // src="https://cdn-6.motorsport.com/images/mgl/6D1XbeV0/s800/max-verstappen-red-bull-racing.jpg"
+            src="/Self.jpg"
             alt="KQ Tan"
             className="rounded-full mx-auto w-40 h-40 object-cover shadow-lg"
             initial={{ scale: 0.8 }}
