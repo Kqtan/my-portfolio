@@ -22,6 +22,13 @@ const AwardCard = ({ title, issuer, date, badge, link }) => (
 
 const certifications = [
   {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "Jul 2025",
+    badge: "assets/aws-certified-cloud-practitioner-341.png",
+    link: "https://www.credly.com/badges/7102756d-7e93-49e7-b2bb-8f86a64bd3bd/public_url",
+  },
+  {
     title: "AWS re/Start Graduate",
     issuer: "Amazon Web Services",
     date: "May 2025",
