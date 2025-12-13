@@ -5,6 +5,7 @@ import { FaPython, FaReact, FaAws, FaLinux } from "react-icons/fa";
 import { PiMicrosoftExcelLogoBold } from "react-icons/pi";
 import { TbFileTypeSql } from "react-icons/tb";
 import { SiFlask, SiGoogleanalytics, SiScikitlearn } from "react-icons/si";
+import { FaRegSnowflake } from "react-icons/fa";
 // import MotionCard from "../components/MotionCard";
 
 const size = 75;
@@ -18,6 +19,11 @@ const skills = [
     name: "SQL",
     icon: <TbFileTypeSql size={size}/>,
     description: "SQL to perform data-related operations."
+  },
+  {
+    name: "Snowflake",
+    icon: <FaRegSnowflake size={size}/>,
+    description: "Familiar with Snowflake ecosystem tools."
   },
   {
     name: "Excel",
