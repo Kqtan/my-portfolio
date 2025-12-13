@@ -15,19 +15,43 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="pt-10 bg-gray-900 text-white">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+    // <section id="experience" className="pt-10 bg-gray-900 text-white">
+    <section
+      id="experience"
+      className="pt-10 bg-gray-900 text-white overflow-x-hidden"
+    >
+      <div className="max-w-6xl mx-auto px-6 text-center overflow-x-clip">
         <h2 className="text-5xl font-bold text-[#61dafb] mb-10">Experience</h2>
 
         {/* Carousel Container */}
         <div className="relative">
-          <div className="lg:flex lg:justify-center">
+          {/* <div className="lg:flex lg:justify-center no-scrollbar"> */}
             {/* Scrollable Cards */}
+            {/* <div
+              ref={scrollRef}
+              className="flex overflow-x-auto gap-6 pb-4 px-12 no-scrollbar scroll-smooth snap-x snap-mandatory"
+            > */}
+          <div className="px-12">
             <div
               ref={scrollRef}
-              className="flex overflow-x-auto gap-6 pb-4 px-4 no-scrollbar scroll-smooth snap-x snap-mandatory"
+              className="flex overflow-x-auto gap-6 pb-4 no-scrollbar scroll-smooth snap-x snap-mandatory"
             >
-              <div className="snap-start flex-shrink-0" style={{ width: "1px" }} />
+              {/* <div className="snap-start flex-shrink-0" style={{ width: "1px" }} /> */}
+
+              <div className="snap-center flex-shrink-0">
+                <ExperienceCard
+                  coverColor="#771FFF"
+                  profileImg="/assets/gxbank_logo.jpeg"
+                  role="Data Science, Specialist"
+                  company="GX Bank"
+                  duration="2025 Sep - Present"
+                  summary="Regional Biz Banking Data Science"
+                  description={[
+                    "Supporting regional (MY & SG) business banking Data Science and Analytics.",
+                    "Spearhead analytics work on bank's onboarding process using data."
+                  ]}
+                />
+              </div>
 
               <div className="snap-center flex-shrink-0">
                 <ExperienceCard
@@ -35,7 +59,7 @@ const Experience = () => {
                   profileImg="/assets/sun_life_logo.jpg"
                   role="Data Scientist"
                   company="Sun Life Malaysia Assurance"
-                  duration="2024 Jan - Present"
+                  duration="2024 Jan - 2025 Aug"
                   summary="Exposure on ML, Business Logic, and Automations."
                   description={[
                     "Spearheaded the integration of Anaconda Python into the organisation.",
@@ -65,7 +89,7 @@ const Experience = () => {
                 />
               </div>
 
-              <div className="snap-end flex-shrink-0" style={{ width: "1px" }} />
+              {/* <div className="snap-end flex-shrink-0" style={{ width: "1px" }} /> */}
             </div>
           </div>
 

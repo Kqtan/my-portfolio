@@ -98,10 +98,10 @@ function HomePage() {
       </nav>
 
       {/* Sections */}
-      <section id="about">
+      <section id="about" class="bg-gray-900">
         <About />
       </section>
-      <section id="skills">
+      <section id="skills" class="bg-gray-900">
         <Skills />
       </section>
       <section id="education">
@@ -116,7 +116,7 @@ function HomePage() {
       <section id="certifications">
         <Certifications />
       </section>
-      <section id="talks">
+      <section id="talks" class="bg-gray-900">
         <Talks />
       </section>
       <section id="contact">

@@ -60,7 +60,7 @@ const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(null);
 
   return (
-    <div id="skills" className="py-10 px-4 bg-gray-900 text-white text-center">
+    <div id="skills" className="relative py-10 px-4 bg-gray-900 text-white text-center overflow-hidden">
       <h2 className="text-5xl font-bold text-[#61dafb] mb-10">Areas of Craftsmanship</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         {skills.map((skill, index) => (

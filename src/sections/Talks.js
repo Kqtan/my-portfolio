@@ -21,7 +21,7 @@ const items = [
 
 const Talks = () => {
   return (
-    <div className="p-8 pt-10 max-w-6xl mx-auto">
+    <div className="relative p-8 pt-10 max-w-6xl mx-auto overflow-hidden">
       <h2 className="text-5xl font-bold text-[#61dafb] text-center mb-10">Talks & Publications</h2>
 
       <Carousel className="w-full max-w-2xl mx-auto" items={items.map((item, idx) => (
