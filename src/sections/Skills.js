@@ -13,7 +13,7 @@ const skills = [
   {
     name: "Python",
     icon: <FaPython size={size} />,
-    description: "Main language. Used for data science, ML, and automation.",
+    description: "Main language. Used for Data Science, AI/ ML, and automation.",
   },
   {
     name: "SQL",
@@ -33,7 +33,7 @@ const skills = [
   {
     name: "AWS",
     icon: <FaAws size={size} />,
-    description: "AWS Re/Start student and worked with Bedrock for GenAI POC project.",
+    description: "AWS Certified Cloud Practitioner and worked with Bedrock for GenAI POC project.",
   },
   {
     name: "Analytics",

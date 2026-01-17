@@ -48,7 +48,9 @@ const Experience = () => {
                   summary="Regional Biz Banking Data Science"
                   description={[
                     "Supporting regional (MY & SG) business banking Data Science and Analytics.",
-                    "Spearhead analytics work on bank's onboarding process using data."
+                    "Spearhead Onboarding & Acquisition Analytics work for Strategic Decisioning.",
+                    "Performed Biz Banking High Depositors Profile Selector using Light GBM Model.",
+                    "Led GX3.0 Campaign Analysis on Account Acquisition and Business Loan to facilitate decisions.",
                   ]}
                 />
               </div>
