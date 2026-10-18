@@ -45,10 +45,13 @@ const Experience = () => {
                   role="Data Science, Specialist"
                   company="GX Bank"
                   duration="2025 Sep - Present"
-                  summary="Regional Biz Banking Data Science"
+                  summary="Regional Cards and Payments Data Science Analytics"
                   description={[
-                    "Supporting regional (MY & SG) business banking Data Science and Analytics.",
-                    "Spearhead Onboarding & Acquisition Analytics work for Strategic Decisioning.",
+                    "Spearhead Digibank GenAI adoption and presence for Analytics work.",
+                    "Involved in the development Digibank's first MCP server, for internal DSA workflow.",
+                    "Constructed a hyperpersonalised marketing profile using both Grab and Digibank data, to facilitate marketing campaigns.",
+                    "Spearhead the analytics for Grab's First Credit Card, discover insights from onboarding funnel and spending behaviour.",
+                    "Conducted a deep dive analysis on Credit Card Launch to uncover persona and brand new customer segments.",
                     "Performed Biz Banking High Depositors Profile Selector using Light GBM Model.",
                     "Led GX3.0 Campaign Analysis on Account Acquisition and Business Loan to facilitate decisions.",
                   ]}
